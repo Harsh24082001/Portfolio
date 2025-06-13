@@ -2,13 +2,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-// import html from '../../public/html5_1216733.png'
-// import css from '../../public/css-3.png'
-// import js from '../../public/js_5968292.png'
-// import mongodb from '../../public/mongodb-logo-svgrepo-com.png'
-// import nodejs from '../../public/icons8-nodejs-480.png'
-// import react from '../../public/physics_1126012.png'
-// import nextjs from '../../public/next.svg'
 import setting from '../../public/icon1.png'
 import light from '../../public/icon2.png'
 import harsh from '../../public/harsh.png'
@@ -46,7 +39,7 @@ const Hero = () => {
                         draggable='false' />
                 </motion.div>
                 <p className='text-center md:text-xl  max-w-[600px] mx-auto mt-8 text-white/80'>
-                    I'm a full-stack developer to build responsive, user-friendly web applications with clean UI and efficient backend logic.
+                    I am a full-stack developer to build responsive, user-friendly web applications with clean UI and efficient backend logic.
                 </p>
                 <Image src={profile} alt='profile picture' className='mx-auto h-auto w-120 mt-10' />
             </div>

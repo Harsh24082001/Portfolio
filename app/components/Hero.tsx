@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import setting from '../../public/icon1.png'
 import light from '../../public/icon2.png'
-import harsh from '../../public/harsh.png'
+// import harsh from '../../public/harsh.png'
 import profile from '../../public/profile.png'
 
 

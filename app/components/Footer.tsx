@@ -6,16 +6,16 @@ const year = new Date().getFullYear();
 const Footer = () => {
     return (
         <div className='px-6 md:px-6 mt-12 text-white/70 py-8 max-w-[1000px] mx-auto border-t border-gray-700 pt-4 flex items-center justify-between'>
-            <h1 className='md:text-xl font-bold'>Copyright &copy; {year}  Harsh Dev </h1>
+            <h1 className='md:text-md '>Copyright &copy; {year}  Harsh Dev </h1>
                 <div className='flex space-x-6 md:mt-4 '>
                     <a href="#" className='hover:text-gray-300'>
-                        <FaLinkedin size={25}/>
+                        <FaLinkedin size={20}/>
                     </a>
                     <a href="#" className='hover:text-gray-300'>
-                        <FaInstagram size={25}/>
+                        <FaInstagram size={20}/>
                     </a>
                     <a href="#" className='hover:text-gray-300'>
-                        <FaTwitter size={25}/>
+                        <FaTwitter size={20}/>
                     </a>
                 </div>
         </div>

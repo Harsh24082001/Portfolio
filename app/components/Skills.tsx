@@ -12,7 +12,7 @@ const skillIcons=[
     {icon:<FaNodeJs size={140}/>, label:'Nodejs'},
     {icon:<BiData size={140}/>, label:'MongoDb'},
     {icon:<FaJava size={140}/>, label:'Java'},
-    {icon:<FaGit size={140}/>, label:'git'},
+    {icon:<FaGit size={140}/>, label:'Git'},
     
 ]
 
@@ -23,7 +23,7 @@ const Skills = () => {
             <h2 className='text-6xl font-bold mb-4'>What I Do</h2>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6'> 
                 {skillIcons.map((skill, index) => (
-                    <div key={index} className='md:w-[220px] md:h-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
+                    <div key={index} className='md:w-[200px] md:h-[220px] w-[200px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl'>
                         {skill.icon}
                         <p className='mt-2'>{skill.label}</p>
                     </div>

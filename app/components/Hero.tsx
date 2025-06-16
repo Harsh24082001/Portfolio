@@ -15,11 +15,11 @@ const Hero = () => {
                             bg-[radial-gradient(closest-side,#000_80%,#2B1942)]'></div>
             <div className='relative'>
                 <div className='md:px-0 md:text-8xl text-4xl font-bold text-center px-4 py-6'>
-                    <Image
+                    {/* <Image
                         src={harsh}
                         alt="Background"
                         className=" absolute inset-0 w-30 h-30 object-cover  rounded-full border border-white left-[1000px] "
-                    />
+                    /> */}
 
                         <h1 className='text-[#98B4CE] backdrop-brightness-100'>Hii, I <span className='backdrop-blur-2xl'>am</span> </h1>
                         <h1 className='text-[#E48A57]'>Harsh Vishwakarma</h1>

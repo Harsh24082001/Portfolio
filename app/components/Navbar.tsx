@@ -43,7 +43,7 @@ const Navbar = () => {
             <div className='text-white/70 '>
                 <div className='hidden md:flex items-center px-2 py-2 mx-auto max-w-[800px]'>
                     <div className='flex justify-center items-center gap-50'>
-                        <div className='text-white font-bold text-2xl'>👋 Harsh Dev</div>
+                        <div className='text-white font-bold text-2xl' id='#'>👋 Harsh Dev</div>
                         <ul className='flex flex-row p-4 space-x-8 text-xl'>
                             {navbarlink.map((link, index) => (
                                 <li key={index}>

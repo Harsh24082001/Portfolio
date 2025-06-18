@@ -29,7 +29,7 @@ const Contact = () => {
                         <input type="email" name='email' className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Email' required/>
                         <input type="phone" name='phone' className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Phone' required/>
                     </div>
-                    <textarea name="Message" id="mesage" className='bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Your Message'></textarea>
+                    <textarea name="Message" id="mesage" className='bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' required placeholder='Your Message'></textarea>
                     <button className='bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full font-semibold text-xl rounded-xl'>Send Me</button>
 
                 </form>
